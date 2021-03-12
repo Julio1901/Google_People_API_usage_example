@@ -22,7 +22,7 @@ googleapis-common-protos 1.53.0
   do usuário para a finalidade da aplicação: Separar todos os contatos do
   usuário em listas de acordo com seu provedor de e-mail.
 
-** A classe "GoogleContactsSearcher" possue 3 métodos, que foram criados
+* A classe "GoogleContactsSearcher" possue 3 métodos, que foram criados
    pensando na forma mais simples de abstrair a API "People" do google. Ela tem
    como finalidade coletar os contatos do cliente, realizar as tratativas
    necessárias e retornar os valores desejados que serão enviados para o
@@ -41,14 +41,14 @@ googleapis-common-protos 1.53.0
   e um trabalho de configuração maior na definição de views e registro de apps
   no projeto etc.,
 
-** Unittest: Decidi utilizar o Unittest para a realização dos testes visando a
+* Unittest: Decidi utilizar o Unittest para a realização dos testes visando a
   objetividade e redução da complexidade. Uma vez que apenas alguns simples
   testes eram necessários, achei melhor evitar utilizar mais dependências para
   fazer algo que poderia facilmente ser feito com uma biblioteca nativa. Apesar
   de outras tecnologias como "Pytest" serem mais difundidas no dia-a-dia, não
   achei que seria necessário a implementação de alguma nesse projeto.
 
-*** Google People API: Uma API extremamente poderosa fornecida pela Google. Com
+* Google People API: Uma API extremamente poderosa fornecida pela Google. Com
     ela, podemos obter detalhes sobre os contatos do usuário do app após a
     permissão do mesmo além de ser útil também para o gerenciamento desses
     contatos com funções que não foram abordadas em nosso aplicativo.
