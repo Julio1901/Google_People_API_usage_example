@@ -1,13 +1,13 @@
 # Requeriments:
 
-Python 3.8
-Flask 0.12.2
-google-api-core          1.26.0
-google-api-python-client 1.12.8
-google-auth              1.27.0
-google-auth-httplib2     0.0.4
-google-auth-oauthlib     0.4.2
-googleapis-common-protos 1.53.0
+* Python 3.8
+* Flask 0.12.2
+* google-api-core          1.26.0
+* google-api-python-client 1.12.8
+* google-auth              1.27.0
+* google-auth-httplib2     0.0.4
+* google-auth-oauthlib     0.4.2
+* googleapis-common-protos 1.53.0
 
 ## Rodandos os testes localmente: 
   python test_gooogle_contacts_searcher.py
