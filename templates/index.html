@@ -1,0 +1,25 @@
+
+{%for provider in providers%}
+  {% if provider != 'no_email_found'%}
+    <h1> {{provider}} </h1>
+      {% for contact in contacts %}
+        {% if provider in contact.email %}
+          <p>{{contact.name}}</p>
+          <p>{{contact.email}}</p>
+        {% endif %}
+      {% endfor %}
+
+ {% else%}
+    <h1>Contact list without email</h1>
+
+     {% for contact in contacts %}
+
+      {% if 'no_email_found' in contact.email %}
+        <p>{{contact.name}}</p>
+      {% endif%}
+
+     {% endfor %}
+
+ {% endif %}
+
+{% endfor %}
