@@ -1,4 +1,4 @@
-#Requeriments:
+# Requeriments:
 
 Python 3.8
 Flask 0.12.2
@@ -9,11 +9,11 @@ google-auth-httplib2     0.0.4
 google-auth-oauthlib     0.4.2
 googleapis-common-protos 1.53.0
 
-##Rodandos os testes localmente: 
+## Rodandos os testes localmente: 
   python test_gooogle_contacts_searcher.py
 
 
-###Notas adicionais:
+### Notas adicionais:
 * O projeto foi realizado com a criação de apenas duas classes. Uma delas serve
   exclusivamente para instanciar objetos da classe Contact que por sua vez
   possuem os atributos 'nome' e 'email' que serão utilizados na segunda classe
@@ -30,7 +30,7 @@ googleapis-common-protos 1.53.0
    eficiente de realizar a abstração. 
   
 
-####Abaixo, algumas observações sobre as tecnologias utilizadas:
+#### Abaixo, algumas observações sobre as tecnologias utilizadas:
 
 * Flask: A utilização do Flask foi excelente visto que a proposta do projeto
   era extremamente simples: Consumir uma API; Abstrair os dados; Retornar os
