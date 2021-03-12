@@ -16,9 +16,9 @@
 ### Notas adicionais:
 * O projeto foi realizado com a criação de apenas duas classes. Uma delas serve
   exclusivamente para instanciar objetos da classe Contact que por sua vez
-  possuem os atributos 'nome' e 'email' que serão utilizados na segunda classe
+  possuem os atributos "nome" e "email" que serão utilizados na segunda classe
   GoogleContactsSearcher onde foram criados todos os métodos para a abstração e
-  consumo da API ''People'' do Google que foi utilizada para coletar os dados necessários
+  consumo da API "People" do Google que foi utilizada para coletar os dados necessários
   do usuário para a finalidade da aplicação: Separar todos os contatos do
   usuário em listas de acordo com seu provedor de e-mail.
 
@@ -34,8 +34,8 @@
 
 * Flask: A utilização do Flask foi excelente visto que a proposta do projeto
   era extremamente simples: Consumir uma API; Abstrair os dados; Retornar os
-  dados tratados como informações para o front-end. Visto que esse é um ''Micro
-  Framework'', o mesmo exige um baixo nível de complexidade para a
+  dados tratados como informações para o front-end. Visto que esse é um "Micro
+  Framework", o mesmo exige um baixo nível de complexidade para a
   implementação de um app simples, em comparação com outros Frameworks como
   Django onde seria necessário a realização de diversas configurações iniciais
   e um trabalho de configuração maior na definição de views e registro de apps
