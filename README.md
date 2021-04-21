@@ -3,6 +3,8 @@
 
 > Status do Projeto: Concluido :heavy_check_mark:
 
+<p>:exclamation: Atenção, para rodar o exemplo desse repositório é necessário realizar as configurações de segurança substituindo 'token.pickle' e 'credentials.json' pelas chaves geradas para a sua máquina durante o processo de configuração de segurança do Google. Consulte a documentação oficial da API do Google para verificar o passo a passo de como fazer isso.</p>
+
 # Requeriments:
 
 * Python 3.8
