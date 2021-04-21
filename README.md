@@ -1,3 +1,8 @@
+<h1>Google People API usage example </h1>
+<p>Esse é um exemplo prático de uso da Google People API, extremamente útil para solicitar dados da conta Google de um usuário afim de serem utilizados em alguma feature de sua aplicação.</p>
+
+> Status do Projeto: Concluido :heavy_check_mark:
+
 # Requeriments:
 
 * Python 3.8
